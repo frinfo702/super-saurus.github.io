@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    // 他の設定
+  ],
+  "rules": {
+    // ルール
+  }
 }
