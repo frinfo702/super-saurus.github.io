@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.social-links img {
+  width: 40px; /* または必要なサイズ */
+  height: auto; /* 縦横比を保持する */
+  margin: 10px;
+}
+
+
+
+
+.small-spacing {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2; /* 行間の高さを調整します */
+}
+
+.container {
+  text-align: left; /* テキストを左寄せに設定 */
+  margin: 0 auto; /* コンテナを中央に配置 */
+  max-width: 800px; /* コンテナの最大幅を設定（必要に応じて調整） */
+}
+
+.Home-header h1 {
+  border-bottom: 2px solid #eee; /* 色付きの線を追加 */
+  padding-top: 40px;
+  padding-bottom: 10px; /* 線とテキストの間にスペースを追加　*/
+  margin-bottom: 20px; /* 線の下にスペースを追加 */
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  
+}
+
+.table {
+  width: 70%; /* 表の幅を設定します。必要に応じて値を調整してください。 */
+  /* margin: auto; /* 表を中央に配置します */
+  border-collapse: collapse; /* セルの境界線を重ねます */
+}
+
+.table th, .table td {
+  border: 1px solid #000; /* セルの境界線のスタイルを設定します */
+  padding: 8px; /* セル内のパディングを設定します */
+  text-align: left; /* テキストの位置を左に設定します */
+}
+
+.table th {
+  background-color: #f2f2f2; /* ヘッダーの背景色を設定します */
+}
+
+nav {
+  position: fixed;
+  right: 40px;
+  top: 150px; /*または必要な値に調整 */
+}
+
+nav ul li.active a {
+  font-weight: bold;
+}
+
+.my-4 h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
