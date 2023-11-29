@@ -47,7 +47,7 @@ function Home() {
     
     const content_c = [
         <span>
-            -[c1]<LinkComponent text="立命館大学競技プログラミングサークルRiPPro" url="https://rippro.github.io/" />
+            -[c1]<LinkComponent text="命館大学競技プログラミングサークルRiPPro" url="https://rippro.github.io/" />
         </span>,
         <span>
             -[c2]<LinkComponent text="Tech.Uni" url="https://techuni.org/" />
