@@ -62,7 +62,14 @@ function Home() {
     
 
     const columns_e = ['番号', '年', '月', '内容'];
-    const content_e = [{number:'[e1]', year:'2023', month:'08', content:'本サイトの作成'}];
+    const content_e = [
+      {number:'[e1]', year:'2023', month:'08', content:'本サイトの作成'},
+      {number:'[e2]', year:'2023', month:'12', content:
+    <span>
+      <LinkComponent text="BoidWork" url="https://super-saurus.github.io/super-saurus-boid-demo/" />
+    </span>}
+
+    ];
     const tableComponent_e =<CustomTable columns={columns_e} data={content_e} />;
 
     const content_f = [
