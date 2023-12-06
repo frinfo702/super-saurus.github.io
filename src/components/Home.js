@@ -66,7 +66,7 @@ function Home() {
       {number:'[e1]', year:'2023', month:'08', content:'本サイトの作成'},
       {number:'[e2]', year:'2023', month:'12', content:
     <span>
-      <LinkComponent text="BoidWork" url="https://super-saurus.github.io/super-saurus-boid-demo/" />
+      <LinkComponent text="Boidwork" url="https://super-saurus.github.io/super-saurus-boid-demo/" />
     </span>}
 
     ];
